@@ -29,7 +29,7 @@ Spar Nord Bank has also built a dimensional model datastore (ATM Data Mart) on t
 ### Dimension Model
 
 <image src='https://images.upgrad.com/04ccb28b-37a3-4c38-ac7a-1cd556327670-Dimension%20Model.jpg'>
-
+<hr/>
 ### Solution Approach
 <image src='ETL_Solution.PNG'>
 
