@@ -24,6 +24,14 @@ Please note that the source data and target schema details are provided to bette
 We have data from more than 100 ATMs across Denmark. Data is captured for every transaction including, card type, location, date, time, ATM type, etc. Also, the transaction amount field in the data set was added separately using a random function for the analysis purpose.
 
 Spar Nord Bank has also built a dimensional model datastore (ATM Data Mart) on this ATM transaction data to understand the ATM usage pattern. This exact schema(target schema) of this Data Mart will be provided to you for the sake of this project. Basically, this will be the schema according to which you will be creating tables in Redshift. 
+<hr/>
+
+### Dimension Model
+
+<image src='https://images.upgrad.com/04ccb28b-37a3-4c38-ac7a-1cd556327670-Dimension%20Model.jpg'>
+
+### Solution Approach
+<image src='ETL_Solution.PNG'>
 
 Broadly you will be performing the following task-
  - Extracting the transactional data from a given MySQL RDS server to HDFS(EC2) instance using Sqoop.
@@ -32,4 +40,6 @@ Broadly you will be performing the following task-
  - Creating the Redshift tables according to the given schema.
  - Loading the data from Amazon S3 to Redshift tables.
  - Performing the analysis queries.
+
+<hr/>
 
